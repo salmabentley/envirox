@@ -1,9 +1,17 @@
 import React from 'react'
 import { Link } from 'react-router'
+import { Helmet } from 'react-helmet'
 
 const Home = () => {
   return (
     <main>
+        <Helmet>
+            <title>EnviroX</title>
+            <meta name="description" content="A society of sustainability enlightened leaders aiming to provide intersectional insights combining STEM, humanities and environmental challenges." />
+            <meta property="og:title" content="EnviroX" />
+            <meta property="og:description" content="A society of sustainability enlightened leaders aiming to provide intersectional insights combining STEM, humanities and environmental challenges." />
+            <link rel="canonical" href="https://envirox-ac901.web.app/" />
+        </Helmet>
     <section className='title'>
       <aside className="left">
         <div id="left-container">

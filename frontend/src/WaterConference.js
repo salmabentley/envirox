@@ -1,8 +1,16 @@
 import React from 'react'
+import {Helmet} from 'react-helmet'
 
 const WaterConference = () => {
   return (
     <main>
+        <Helmet>
+            <title>United Water Conference 2025</title>
+            <meta name="description" content="Join us at the UWCSEA United Water Conference this May! We are looking for students with a vested interest in making a difference and helping address key sustainability issues. Rather than taking a broad lens on sustainability, we are specifically addressing the issue of Water Conservation." />
+            <meta property="og:title" content="EnviroX" />
+            <meta property="og:description" content="Join us at the UWCSEA United Water Conference this May! We are looking for students with a vested interest in making a difference and helping address key sustainability issues. Rather than taking a broad lens on sustainability, we are specifically addressing the issue of Water Conservation." />
+            <link rel="canonical" href="https://envirox-ac901.web.app/singapore-water-conference" />
+        </Helmet>
         {/* main */}
         <section style={{display:'flex', alignItems: 'center'}}>
             <aside style={{display:'flex', alignItems: 'center', justifyContent: 'center'}}>

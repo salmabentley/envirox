@@ -1,8 +1,16 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 
 const Aboutus = () => {
   return (
     <main>
+        <Helmet>
+            <title>About Us</title>
+            <meta name="description" content="EnviroX is a society dedicated to propagating news or ideas about the environment, focusing on issues like climate change, conservation, and sustainability, while inspiring actions and solutions through education, media outreach, and community engagement." />
+            <meta property="og:title" content="EnviroX" />
+            <meta property="og:description" content="EnviroX is a society dedicated to propagating news or ideas about the environment, focusing on issues like climate change, conservation, and sustainability, while inspiring actions and solutions through education, media outreach, and community engagement." />
+            <link rel="canonical" href="https://envirox-ac901.web.app/aboutus" />
+        </Helmet>
         <section className='about'>
             <h2 style={{fontSize: '2rem', marginBottom: '10vh'}}>Who are we?</h2>
             <div className="cards">
