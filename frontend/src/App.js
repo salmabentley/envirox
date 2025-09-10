@@ -7,6 +7,7 @@ import Articles from './Articles';
 
 import Runningwild from './runningwild';
 import Watercrisis from './Watercrisis';
+import WaterConference from './WaterConference';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />}></Route>
           <Route path='/aboutus' element={<Aboutus />}></Route>
+          <Route path='/singapore-water-conference' element={<WaterConference />}></Route>
           <Route path='/articles' element={<Articles />}>
           </Route>
             <Route path='/articles/running-wild' element={<Runningwild />}></Route>
